@@ -1,7 +1,9 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-() => {
-  let myVariable = 5;
+let myVariable = 5;
+
+const variableFunction = () => {
+  console.log(myVariable);
 }
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
